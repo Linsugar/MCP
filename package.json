@@ -1,0 +1,19 @@
+{
+  "name": "xiaoshuo-mcp-server",
+  "version": "1.0.0",
+  "description": "小说写作辅助 MCP 服务器",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "xiaoshuo-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
